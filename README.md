@@ -42,7 +42,7 @@ see pdf
 # Training error models
 The python script, train_CuReSim-LoRM.py, was developed to automate the whole process, computing the parameters and running CuReSim-LoRM.
 
-![Pipeline](https://myoctocat.com/assets/images/base-octocat.svg)
+![Pipeline](docs/figure_ter.png)
 
 
 # Support
