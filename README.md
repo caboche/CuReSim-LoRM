@@ -30,5 +30,4 @@ For questions and comments, please contact us at segolene.caboche(AT)pasteur-lil
 
 # Citation
 
-A manuscript describing MICRA is under publication. If you make use of the MICRA pipeline, please cite us:
-Caboche et al., Fast characterization of microbial genomes from high-throughput sequencing data (submited). 
+A manuscript describing CuReSim-LoRM is under publication. If you make use of the CuReSim-LoRM, please cite us: Caboche et al., CuReSim-LoRM: a tool to simulate metabarcoding long reads (submited).
