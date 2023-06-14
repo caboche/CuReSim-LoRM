@@ -48,6 +48,11 @@ The python script, train_CuReSim-LoRM.py, was developed to automate the whole pr
 # External tools
 ## Grinder
 
+## minimap2
+
+## bbmap
+
+
 
 # Support
 For questions and comments, please contact us at segolene.caboche(AT)pasteur-lille.fr.
