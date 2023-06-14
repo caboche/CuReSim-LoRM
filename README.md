@@ -25,7 +25,16 @@ For big datasets you can use the ”java -XmxYYg” argument to allocate more me
 allocate 20Gb of RAM).
 
 ## Usage
-
+```
+Usage: java -jar simulator.jar [options] -f <input_file> [options]
+-f file_name 	 [mandatory] reads fastq file (without errors, can be obtained form Grinder)
+-o file_name 	 [facultative] name of output fastq file [output.fastq]
+-r int 	 [facultative] number of random reads [0]
+-q char 	 [facultative] quality encoding character [')']
+-p file_name 	 [facultative] error profile
+-para int[6] 	 read length parameters
+-h 	 print this help
+```
 
 ## Support
 For questions and comments, please contact us at segolene.caboche(AT)pasteur-lille.fr.
