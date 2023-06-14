@@ -14,7 +14,6 @@ executable jar file.
 
 # Installation
 
-
 CuReSim-LoRM does not need installation step but require Java installed on your machine
 (see http://www.oracle.com/us/technologies/java/overview/index.html for more details on Java).
 
@@ -25,9 +24,12 @@ To run CuReSim-LoRM, use the following command line :
 For big datasets you can use the ”java -XmxYYg” argument to allocate more memory to CuReSim (e.g. -Xmx20g to
 allocate 20Gb of RAM).
 
-# Support
+## Usage
+
+
+## Support
 For questions and comments, please contact us at segolene.caboche(AT)pasteur-lille.fr.
 
-# Citation
+## Citation
 
 A manuscript describing CuReSim-LoRM is under publication. If you make use of the CuReSim-LoRM, please cite us: Caboche et al., CuReSim-LoRM: a tool to simulate metabarcoding long reads (submited).
