@@ -9,6 +9,7 @@ executable jar file.
 * [Usage](#Usage)
 * [Methods](#Methods)
 * [Training error models](#Learning-error-models)
+* [External tolls](#External-tools)
 * [Support](#support)
 * [Citation](#citation)
 
@@ -43,6 +44,9 @@ see pdf
 The python script, train_CuReSim-LoRM.py, was developed to automate the whole process, computing the parameters and running CuReSim-LoRM.
 
 ![Pipeline](docs/figure1_ter.png)
+
+# External tools
+## Grinder
 
 
 # Support
