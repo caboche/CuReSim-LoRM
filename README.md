@@ -42,7 +42,7 @@ see pdf
 # Training error models
 The python script, train_CuReSim-LoRM.py, was developed to automate the whole process, computing the parameters and running CuReSim-LoRM.
 
-![Pipeline](docs/figure_ter.png)
+![Pipeline](docs/figure1_ter.png)
 
 
 # Support
