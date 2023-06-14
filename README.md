@@ -39,6 +39,9 @@ Usage: java -jar simulator.jar [options] -f <input_file> [options]
 # Methods 
 see pdf
 
+# Learning error models
+
+
 
 # Support
 For questions and comments, please contact us at segolene.caboche(AT)pasteur-lille.fr.
