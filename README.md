@@ -6,8 +6,8 @@ executable jar file.
 
 # Table of Contents
 * [Installation](#Installation)
-* [External tools](#external-tools)
-* [Databases](#databases)
+* [Usage](#Usage)
+* [Methods](#Methods)
 * [Content description](#content-description)
 * [Support](#support)
 * [Citation](#citation)
@@ -24,3 +24,11 @@ To run CuReSim-LoRM, use the following command line :
 
 For big datasets you can use the ”java -XmxYYg” argument to allocate more memory to CuReSim (e.g. -Xmx20g to
 allocate 20Gb of RAM).
+
+# Support
+For questions and comments, please contact us at segolene.caboche(AT)pasteur-lille.fr.
+
+# Citation
+
+A manuscript describing MICRA is under publication. If you make use of the MICRA pipeline, please cite us:
+Caboche et al., Fast characterization of microbial genomes from high-throughput sequencing data (submited). 
