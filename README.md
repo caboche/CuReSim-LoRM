@@ -8,7 +8,7 @@ executable jar file.
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Methods](#Methods)
-* [Learning error models](#Learning-error-models)
+* [Training error models](#Learning-error-models)
 * [Support](#support)
 * [Citation](#citation)
 
@@ -39,7 +39,7 @@ Usage: java -jar simulator.jar [options] -f <input_file> [options]
 # Methods 
 see pdf
 
-# Learning error models
+# Training error models
 
 
 
