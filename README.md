@@ -24,7 +24,7 @@ To run CuReSim-LoRM, use the following command line :
 For big datasets you can use the ”java -XmxYYg” argument to allocate more memory to CuReSim (e.g. -Xmx20g to
 allocate 20Gb of RAM).
 
-## Usage
+# Usage
 ```
 Usage: java -jar simulator.jar [options] -f <input_file> [options]
 -f file_name 	 [mandatory] reads fastq file (without errors, can be obtained form Grinder)
@@ -36,9 +36,13 @@ Usage: java -jar simulator.jar [options] -f <input_file> [options]
 -h 	 print this help
 ```
 
-## Support
+# Methods 
+see pdf
+
+
+# Support
 For questions and comments, please contact us at segolene.caboche(AT)pasteur-lille.fr.
 
-## Citation
+# Citation
 
 A manuscript describing CuReSim-LoRM is under publication. If you make use of the CuReSim-LoRM, please cite us: Caboche et al., CuReSim-LoRM: a tool to simulate metabarcoding long reads (submited).
