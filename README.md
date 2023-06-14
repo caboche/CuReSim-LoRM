@@ -5,9 +5,13 @@ synthetic long sequencing reads for metabarcoding. CuReSim-LoRM is developed in 
 executable jar file.
 
 # Table of Contents
-* [MICRA organization](#micra-organization)
+* [Installation](#Installation)
 * [External tools](#external-tools)
 * [Databases](#databases)
 * [Content description](#content-description)
 * [Support](#support)
 * [Citation](#citation)
+
+#Installation
+
+
