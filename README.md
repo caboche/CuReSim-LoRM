@@ -8,7 +8,7 @@ executable jar file.
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Methods](#Methods)
-* [Content description](#content-description)
+* [Learning error models](#Learning-error-models)
 * [Support](#support)
 * [Citation](#citation)
 
