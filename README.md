@@ -40,7 +40,7 @@ Usage: java -jar simulator.jar [options] -f <input_file> [options]
 see pdf
 
 # Training error models
-
+The python script, train_CuReSim-LoRM.py, was developed to automate the whole process, computing the parameters and running CuReSim-LoRM.
 
 
 # Support
