@@ -22,7 +22,7 @@ To run CuReSim-LoRM, use the following command line :
 
 ```java -jar CuReSim-LoRM.jar [options] -f <input_file> [options]```
 
-For big datasets you can use the ”java -XmxYYg” argument to allocate more memory to CuReSim (e.g. -Xmx20g to
+For big datasets you can use the ”java -XmxYYg” argument to allocate more memory to CuReSim-LoRM (e.g. -Xmx20g to
 allocate 20Gb of RAM).
 
 # Usage
