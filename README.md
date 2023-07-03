@@ -9,7 +9,7 @@ executable jar file.
 * [Usage](#Usage)
 * [Methods](#Methods)
 * [Training error models](#Learning-error-models)
-* [External tolls](#External-tools)
+* [External tools](#External-tools)
 * [Support](#support)
 * [Citation](#citation)
 
