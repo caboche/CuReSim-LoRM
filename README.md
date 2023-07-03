@@ -45,6 +45,9 @@ The python script, train_CuReSim-LoRM.py, was developed to automate the whole pr
 
 ![Pipeline](docs/figure1_ter.png)
 
+The script train_CuReSim-LoRM requires several files in input. 
+The FASTQ file containing the error-prone simulated reads, obtained from reference sequences and abundances, is used to get n the number of simulated reads and as direct input of CuReSim-LoRM. Real reads have to be mapped against the reference sequences, for example with minimap2, to obtain a SAM alignment file, which can be used with bbmap 15 to get an identity percentage histogram from the real data. 
+
 # External tools
 ## Grinder
 
