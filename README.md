@@ -54,7 +54,7 @@ The FASTQ file containing the error-prone simulated reads, obtained from referen
 # External tools
 ## Grinder
 
-You can use Grinder to generate reads without error
+You can use Grinder (https://github.com/zyxue/biogrinder) to generate reads without errors.
 ```sudo time grinder -af proportions_V1.txt -rf Zymo_bacterialGenomes.fasta -tr 88820 -fr primers.fasta -lb 0 -cb 1 -rd 2000```
 
 ## minimap2
