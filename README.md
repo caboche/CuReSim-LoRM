@@ -1,10 +1,10 @@
 # CuReSim-LoRM: a tool to simulate metabarcoding long reads
 
 CuReSim-LoRM (Customized Read Simulator to generate Long Reads for Metabarcoding) is a tool which generates
-synthetic long sequencing reads for metabarcoding. CuReSim-LoRM is developed in Java and is distributed as an
-executable jar file.
-A complementary script, train_CuReSim-LoRM.py is available to train a new error model from real data.
-This python script was developed to automate the whole process: to compute the parameters and to run CuReSim-LoRM.
+synthetic long sequencing reads for metabarcoding. 
+
+A complementary script, train_CuReSim-LoRM.py, is available to train a new error model from real data.
+This script was developed to automate the whole process, computing the parameters and running CuReSim-LoRM.
 
 # Table of Contents
 * [Installation](#Installation)
@@ -17,7 +17,8 @@ This python script was developed to automate the whole process: to compute the p
 
 # Installation
 
-CuReSim-LoRM does not need installation step but require Java installed on your machine
+CuReSim-LoRM is developed in Java and is distributed as an
+executable jar file. It does not need installation step but require Java installed on your machine
 (see http://www.oracle.com/us/technologies/java/overview/index.html for more details on Java).
 
 To run CuReSim-LoRM, use the following command line :
