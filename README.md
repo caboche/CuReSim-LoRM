@@ -108,7 +108,7 @@ We advise to use these parameters:
 
 ```grinder -af proportions.txt -rf referenceSequences.fasta -tr numberOfreads -fr primers.fasta -lb 0 -cb 1 -rd 2000```
 
-where __proportions.txt__ contains the relative abundance of the reference sequences and __primers.fasta__ contains the sequence of the primers for the __in silico__ PCR.
+where * *proportions.txt* * contains the relative abundance of the reference sequences and * *primers.fasta* *  contains the sequence of the primers for the * *in silico* * PCR.
 The option -lb=0 was used to have no length-bias, -cb=0 to have no copy bias and -rd=2000 to not truncate the read with a value greater than the length of the 16S gene.
 
 ## minimap2
