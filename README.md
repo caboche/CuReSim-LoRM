@@ -123,6 +123,10 @@ In ordre to obtain the identity histogram, we recommend were to use bbmap (https
 reformat.sh -in=alignment.sam idhist=output_distrib.txt idbins=1000
 ```
 
+# Available profiles and files
+
+
+
 # Support
 For questions and comments, please contact us at segolene.caboche(AT)univ-lille.fr.
 
