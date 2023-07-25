@@ -28,6 +28,25 @@ To run CuReSim-LoRM, use the following command line :
 For big datasets you can use the ”java -XmxYYg” argument to allocate more memory to CuReSim-LoRM (e.g. -Xmx20g to
 allocate 20Gb of RAM).
 
+# Methods 
+Form error-prone reads, CuReSim-LoRM first introduces deletions and insertions in reads with an iterative algo-
+rithm that mostly introduces indels in the longer homopolymers. Then, substitutions are uniformly drawn. The error
+rate follows an exponentiated weibull distribution with, by default, 28% of insertions, 42% of deletions and 30% of
+substitutions.
+The error rate is encoded in a profile file in CuReSim-LoRM.
+
+```
+read;ins;del;sub
+1;0.0547;0.082;0.0586
+2;0.0274;0.0411;0.0294
+3;0.0292;0.0439;0.0313
+```
+
+The profile file is a text file containing 4 columns separated by semi colon ( ;) and n lines corresponding to the
+number of reads to simulate. The first colum gives the unique ID, the second the rate of insertion to be introduced,
+the third gives the rate of deletions and the last one gives the rate of substitutions. A custom error profile can be given
+by the user with the option − p.
+
 # Usage
 ```
 Usage: java -jar simulator.jar [options] -f <input_file> [options]
@@ -40,8 +59,6 @@ Usage: java -jar simulator.jar [options] -f <input_file> [options]
 -h 	 print this help
 ```
 
-# Methods 
-see pdf
 
 # Training error models
 The python script, train_CuReSim-LoRM.py, was developed to automate the whole process, computing the parameters and running CuReSim-LoRM.
