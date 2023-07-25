@@ -74,8 +74,10 @@ CuReSim-LoRM simulates the read lengths from the percentage of these six categor
 category, 2% of very short reads, 9% of short reads, 21% of long deletion category, 1% of long reads and no second
 Gauss category. The length parameter is encoded by a list of six integers:
 **[gauss, longDel, longRead, short, veryShort,secondGauss]** and can be changed with option **− para**.
+
+
 At the end of the simulation, CuReSim-LoRM outputs a FASTQ file with a fixed phred score quality value, by
-default equal to 8 (can be tuned with option − q) , containing reads showing an ONT metabarcoding profile.
+default equal to 8 (**can be tuned with option − q**) , containing reads showing an ONT metabarcoding profile.
 
 # Usage
 ```
