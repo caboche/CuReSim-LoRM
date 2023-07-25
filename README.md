@@ -30,8 +30,8 @@ allocate 20Gb of RAM).
 
 # Methods 
 ## Simulation of the error model
-Form error-prone reads, CuReSim-LoRM first introduces deletions and insertions in reads with an iterative algo-
-rithm that mostly introduces indels in the longer homopolymers. Then, substitutions are uniformly drawn. The error
+Form error-prone reads, CuReSim-LoRM first introduces deletions and insertions in reads with an iterative algorithm
+that mostly introduces indels in the longer homopolymers. Then, substitutions are uniformly drawn. The error
 rate follows an exponentiated weibull distribution with, by default, 28% of insertions, 42% of deletions and 30% of
 substitutions.
 The error rate is encoded in a profile file in CuReSim-LoRM.
@@ -45,8 +45,8 @@ read;ins;del;sub
 
 The profile file is a text file containing 4 columns separated by semi colon ( ;) and n lines corresponding to the
 number of reads to simulate. The first colum gives the unique ID, the second the rate of insertion to be introduced,
-the third gives the rate of deletions and the last one gives the rate of substitutions. A custom error profile can be given
-by the user with the option − p.
+the third gives the rate of deletions and the last one gives the rate of substitutions. 
+A **custom error profile** can be given by the user with the option **− p**.
 
 # Usage
 ```
