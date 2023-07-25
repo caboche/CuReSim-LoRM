@@ -51,6 +51,9 @@ A **custom error profile** can be given by the user with the option **− p**.
 ## Simulation of the read length distribution
 Once errors were introduced, CuReSim-LoRM simulates the read lengths. Six categories of length have been defined
 in CuReSim-LoRM (Figure 1) :
+
+![Size](docs/size.png)
+
 1. the Gauss category : read length from 1,450 to 1,600 bp and following a Gaussian distribution with a mean of
 1,500 bp and a standard deviation of 30
 2. the long read category : reads with length greater than 1,600 bp
