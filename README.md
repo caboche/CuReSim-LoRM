@@ -113,6 +113,9 @@ The option -lb=0 was used to have no length-bias, -cb=0 to have no copy bias and
 
 ## minimap2
 
+To obtain the alignment SAM file of real reads against the reference sequences, we advise to use minimap2 (https://github.com/lh3/minimap2) 
+with ONT sequencing model (-ax map-ont).
+
 ## bbmap
 
 
