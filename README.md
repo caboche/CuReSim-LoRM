@@ -69,6 +69,8 @@ bases) leading to read lengths comprised between 1,000 and 1,450 bases. In CuReS
 long deletions follows an exponential distribution.
 6. the second Gauss category : read length forming a second Gaussian distribution with a mean of 1,100 bp and
 a standard deviation of 30 observed in some sequencing runs.
+
+
 CuReSim-LoRM simulates the read lengths from the percentage of these six categories, by default, 67% of Gauss
 category, 2% of very short reads, 9% of short reads, 21% of long deletion category, 1% of long reads and no second-
 Gauss category. The length parameter is encoded by a list of six integers [gauss, longDel, longRead, short, veryShort,
