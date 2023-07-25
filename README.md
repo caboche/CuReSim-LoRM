@@ -29,6 +29,7 @@ For big datasets you can use the ”java -XmxYYg” argument to allocate more me
 allocate 20Gb of RAM).
 
 # Methods 
+## Simulation of the error model
 Form error-prone reads, CuReSim-LoRM first introduces deletions and insertions in reads with an iterative algo-
 rithm that mostly introduces indels in the longer homopolymers. Then, substitutions are uniformly drawn. The error
 rate follows an exponentiated weibull distribution with, by default, 28% of insertions, 42% of deletions and 30% of
