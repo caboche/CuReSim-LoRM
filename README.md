@@ -54,9 +54,9 @@ in CuReSim-LoRM (Figure 1) :
 
 
 <p align="center">
-  <img width="600" height="200" src="docs/size.png">
+  <img  src="docs/size.png">
 </p>
-![Size]()
+
 
 1. the Gauss category : read length from 1,450 to 1,600 bp and following a Gaussian distribution with a mean of
 1,500 bp and a standard deviation of 30
