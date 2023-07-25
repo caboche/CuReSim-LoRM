@@ -50,7 +50,7 @@ A **custom error profile** can be given by the user with the option **− p**.
 
 ## Simulation of the read length distribution
 Once errors were introduced, CuReSim-LoRM simulates the read lengths. Six categories of length have been defined
-in CuReSim-LoRM (Figure 1) :
+in CuReSim-LoRM :
 
 
 <p align="center">
@@ -63,8 +63,7 @@ in CuReSim-LoRM (Figure 1) :
 2. the long read category : reads with length greater than 1,600 bp
 3. the very short reads category : read length lower than 200 bp
 4. the short read category : reads with length comprised between 200 bp and 1,000 bp
-5. the long deletion category : length between 1,000 and 1,450 bp. Indeed, working with several ONT 16S meta-
-barcoding datasets, we noted that a proportion of reads contained long deletions (several dozens or hundreds of
+5. the long deletion category : length between 1,000 and 1,450 bp, reads containing long deletions (several dozens or hundreds of
 bases) leading to read lengths comprised between 1,000 and 1,450 bases. In CuReSim-LoRM, the size of these
 long deletions follows an exponential distribution.
 6. the second Gauss category : read length forming a second Gaussian distribution with a mean of 1,100 bp and
@@ -72,9 +71,9 @@ a standard deviation of 30 observed in some sequencing runs.
 
 
 CuReSim-LoRM simulates the read lengths from the percentage of these six categories, by default, 67% of Gauss
-category, 2% of very short reads, 9% of short reads, 21% of long deletion category, 1% of long reads and no second-
-Gauss category. The length parameter is encoded by a list of six integers [gauss, longDel, longRead, short, veryShort,
-secondGauss] and can be changed with option − para.
+category, 2% of very short reads, 9% of short reads, 21% of long deletion category, 1% of long reads and no second
+Gauss category. The length parameter is encoded by a list of six integers:
+**[gauss, longDel, longRead, short, veryShort,secondGauss]** and can be changed with option **− para**.
 At the end of the simulation, CuReSim-LoRM outputs a FASTQ file with a fixed phred score quality value, by
 default equal to 8 (can be tuned with option − q) , containing reads showing an ONT metabarcoding profile.
 
