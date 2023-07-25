@@ -125,6 +125,11 @@ reformat.sh -in=alignment.sam idhist=output_distrib.txt idbins=1000
 
 # Available profiles and files
 
+profile run1
+profile run2
+
+test.fastq
+
 
 
 # Support
