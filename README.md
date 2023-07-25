@@ -118,7 +118,10 @@ with ONT sequencing model (-ax map-ont).
 
 ## bbmap
 
-
+In ordre to obtain the identity histogram, we recommend were to use bbmap with a number of bins equal to 1,000. 
+```
+./reformat.sh -in=../16Skit_run2_sampl500K_toZymo.sam idhist=16Skit_run2_zymo.txt idbins=1000
+```
 
 # Support
 For questions and comments, please contact us at segolene.caboche(AT)univ-lille.fr.
