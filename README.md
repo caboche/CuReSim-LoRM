@@ -115,10 +115,10 @@ optional arguments:
                         output directoty [RESULTS]
 ```
 
-1 grinder : the FASTQ file containing the error-prone simulated reads, can be obtained with grinder (see next section for more details)
-2 reads : real reads in FASTQ format
-3 sam: alignment file of real reads mapped against the reference sequences, for example with minimap2 (see next section for more details)
-4 bbmap : identity percentage histogram from the real data which can be obtained with bbmap (see next section for more details about using bbmap) 
+1. grinder : the FASTQ file containing the error-prone simulated reads, can be obtained with grinder (see next section for more details)
+2. reads : real reads in FASTQ format
+3. sam: alignment file of real reads mapped against the reference sequences, for example with minimap2 (see next section for more details)
+4. bbmap : identity percentage histogram from the real data which can be obtained with bbmap (see next section for more details about using bbmap) 
 
 # External tools
 ## Grinder
