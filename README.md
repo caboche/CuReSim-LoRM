@@ -122,6 +122,26 @@ optional arguments:
 
 The **-o** parameter can be used for the name of the output directory
 
+train_CuReSim-LoRM.py produces several files:
+1. curesim_reads.fastq: the file containing simulated reads
+2. OUTPUT_ERRORS.txt: the profile file that can be given to CuReSim-LoRM
+3. error_model.pdf: a plot showing the fiiting of the real data with the model
+4. log.txt: the CuReSim-LoRM log file containing data on the simulation process (
+5. log_error_profile.txt: 
+```
+nb simualted reads88820
+INS 0.28
+DEL 0.42
+SUB 0.3
+Estimation: 179.88921236201946,0.6423259882548946,-1.2151904273915284,0.9367877995036392
+GAUSS: 338220,67.644%: 68
+LONG: 2395,0.479%: 0
+VERY SHORT: 9573,1.9146%: 2
+SHORT: 44577,8.9154%: 9
+1000-1450: 103479,20.695800000000002%: 21
+############67,21,1,9,2,0
+```
+
 # External tools
 ## Grinder
 
