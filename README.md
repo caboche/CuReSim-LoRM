@@ -167,14 +167,14 @@ reformat.sh -in=alignment.sam idhist=output_distrib.txt idbins=1000
 
 # Available profiles and files
 
-| profile  | error rate | insertions (%) | deletions (%) | subtitutions |
+| profile  | error rate (%)| insertions (%) | deletions (%) | subtitutions |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| [run1](profiles/profile_run1.txt) | Content Cell  | 12 | 58 | 30 |
-| [run2](profiles/profile_run2.txt)  | Content Cell  | 22 | 44 | 34 |
-| [run3](profiles/profile_run3.txt) | cccc| 28 | 42 | 30 |
-| [newLot](profiles/profile_newLot.txt)| ccc | 28 | 42 | 3 |
-| [newBasecalling](profiles/profile_newBasecalling.txt) | ccc | 32 | 35 | 33 |
-| [Urban](profiles/profile_urban.txt)urban | ccc | 24| 39 | 37 |
+| [run1](profiles/profile_run1.txt) | 17.4  | 12 | 58 | 30 |
+| [run2](profiles/profile_run2.txt)  | 16.45  | 22 | 44 | 34 |
+| [run3](profiles/profile_run3.txt) | 14.35| 28 | 42 | 30 |
+| [newLot](profiles/profile_newLot.txt)| 14.5 | 28 | 42 | 3 |
+| [newBasecalling](profiles/profile_newBasecalling.txt) | 11.2| 32 | 35 | 33 |
+| [Urban](profiles/profile_urban.txt)| 10.6 | 24| 39 | 37 |
 
 
 test.fastq
