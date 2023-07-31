@@ -169,9 +169,12 @@ reformat.sh -in=alignment.sam idhist=output_distrib.txt idbins=1000
 
 | profile  | error rate | insertions (%) | deletions (%) | subtitutions |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| run1 | Content Cell  | 12 | 58 | 3 |
-| run2  | Content Cell  | c | c | c |
-| run3 | cccc| c | c | c |
+| run1 | Content Cell  | 12 | 58 | 30 |
+| run2  | Content Cell  | 22 | 44 | 34 |
+| run3 | cccc| 28 | 42 | 30 |
+| newLot | ccc | | | |
+| newBasecalling | ccc | | | |
+| urban | ccc | | | |
 
 profile run1
 profile run2
