@@ -167,9 +167,9 @@ reformat.sh -in=alignment.sam idhist=output_distrib.txt idbins=1000
 
 # Available profiles and files
 
-| profile  | error rate | deletions (%) | insertions (%) | subtitutions |
+| profile  | error rate | insertions (%) | deletions (%) | subtitutions |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| run1 | Content Cell  | c | c | c |
+| run1 | Content Cell  | 12 | 58 | 3 |
 | run2  | Content Cell  | c | c | c |
 | run3 | cccc| c | c | c |
 
