@@ -97,7 +97,12 @@ java -jar CuReSim-LoRM.jar [options] -f <input_file> [options]
 
 You can download test file containing error-prone reads coming from the ZymoBIOMICS mock community:
 - [reads_test.fastq](reads_test.fastq) contains 5,000 reads
-- reads_test_20K.zip (unzip file before using) contains 20K reads
+- [reads_test_20K.zip](reads_test_20K.zip) (unzip file before using) contains 20K reads
+
+```
+# generate 5,000 reads with default parameters (output.fastq)
+java -jar CuReSim-LoRM.jar -f reads_test2.fastq
+```
 
 
 
