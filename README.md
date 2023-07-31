@@ -100,9 +100,10 @@ You can download test file containing error-prone reads coming from the ZymoBIOM
 - [reads_test_20K.zip](reads_test_20K.zip) (unzip file before using) contains 20K reads
 
 ```
-# Generate 5,000 reads (output.fastq) with default parameters 
-java -jar CuReSim-LoRM.jar -f reads_test2.fastq
-# Generate 20K reads with 17.4% of errors (profile_run1) and read lengh parameter equal to [70,10,1,15,0,4]
+# Generate 5,000 reads in output.fastq with default parameters 
+java -jar CuReSim-LoRM.jar -f reads_test.fastq
+
+# Generate 20K reads in TEST.fastq with 17.4% of errors (profile_run1) and read lengh parameter equal to [70,10,1,15,0,4]
 java -jar CuReSim-LoRM.jar -f reads_test_20K.fastq -p profile_run1.txt -para 70,10,1,15,0,4 -o TEST.fastq
 ```
 
