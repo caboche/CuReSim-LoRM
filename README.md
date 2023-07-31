@@ -81,7 +81,7 @@ default equal to 8 (**can be tuned with option − q**) , containing reads showi
 
 # Usage
 ```
-Usage: java -jar simulator.jar [options] -f <input_file> [options]
+Usage: java -jar CuReSim-LoRM.jar [options] -f <input_file> [options]
 -f file_name 	 [mandatory] reads fastq file (without errors, can be obtained from Grinder)
 -o file_name 	 [facultative] name of output fastq file [output.fastq]
 -r int 	 [facultative] number of random reads [0]
@@ -92,6 +92,7 @@ Usage: java -jar simulator.jar [options] -f <input_file> [options]
 ```
 
 reads_test.fastq
+
 
 
 # Training error models
