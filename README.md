@@ -12,6 +12,7 @@ This script was developed to automate the whole process, computing the parameter
 * [Methods](#Methods)
 * [Training error models](#Training-error-models)
 * [External tools](#External-tools)
+* [Available profiles](#Available-profiles)
 * [Support](#Support)
 * [Citation](#Citation)
 
