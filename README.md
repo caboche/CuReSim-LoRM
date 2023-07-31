@@ -80,8 +80,11 @@ At the end of the simulation, CuReSim-LoRM outputs a FASTQ file with a fixed phr
 default equal to 8 (**can be tuned with option − q**) , containing reads showing an ONT metabarcoding profile.
 
 # Usage
+
+## Command line and parameters
+
 ```
-Usage: java -jar CuReSim-LoRM.jar [options] -f <input_file> [options]
+java -jar CuReSim-LoRM.jar [options] -f <input_file> [options]
 -f file_name 	 [mandatory] reads fastq file (without errors, can be obtained from Grinder)
 -o file_name 	 [facultative] name of output fastq file [output.fastq]
 -r int 	 [facultative] number of random reads [0]
@@ -92,7 +95,9 @@ Usage: java -jar CuReSim-LoRM.jar [options] -f <input_file> [options]
 ```
 ## Example of use
 
-You can download reads_test.fastq or reads_test_20K.zip (unzip file before using) to test CuReSim-LoRM.
+You can download test file containing error-prone reads coming from the ZymoBIOMICS mock community:
+- [reads_test.fastq](reads_test.fastq) contains 5,000 reads
+- reads_test_20K.zip (unzip file before using) contains 20K reads
 
 
 
