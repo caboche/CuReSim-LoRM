@@ -10,10 +10,10 @@ This script was developed to automate the whole process, computing the parameter
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Methods](#Methods)
-* [Training error models](#Learning-error-models)
+* [Training error models](#Training-error-models)
 * [External tools](#External-tools)
-* [Support](#support)
-* [Citation](#citation)
+* [Support](#Support)
+* [Citation](#Citation)
 
 # Installation
 
