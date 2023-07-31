@@ -90,8 +90,9 @@ Usage: java -jar CuReSim-LoRM.jar [options] -f <input_file> [options]
 -para int[6] 	 read length parameters
 -h 	 print this help
 ```
+## Example of use
 
-reads_test.fastq
+You can download reads_test.fastq or reads_test_20K.zip (unzip file before using) to test CuReSim-LoRM.
 
 
 
