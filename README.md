@@ -91,6 +91,8 @@ Usage: java -jar simulator.jar [options] -f <input_file> [options]
 -h 	 print this help
 ```
 
+reads_test.fastq
+
 
 # Training error models
 The python script, train_CuReSim-LoRM.py, was developed to automate the whole process, computing the parameters and running CuReSim-LoRM.
@@ -165,19 +167,18 @@ In ordre to obtain the identity histogram, we recommend were to use bbmap (https
 reformat.sh -in=alignment.sam idhist=output_distrib.txt idbins=1000
 ```
 
-# Available profiles and files
+# Available profiles
 
 | profile  | error rate (%)| insertions (%) | deletions (%) | subtitutions |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | [run1](profiles/profile_run1.txt) | 17.4  | 12 | 58 | 30 |
 | [run2](profiles/profile_run2.txt)  | 16.45  | 22 | 44 | 34 |
 | [run3](profiles/profile_run3.txt) | 14.35| 28 | 42 | 30 |
-| [newLot](profiles/profile_newLot.txt)| 14.5 | 28 | 42 | 3 |
+| [newLot](profiles/profile_newLot.txt)| 14.5 | 28 | 42 | 30 |
 | [newBasecalling](profiles/profile_newBasecalling.txt) | 11.2| 32 | 35 | 33 |
 | [Urban](profiles/profile_urban.txt)| 10.6 | 24| 39 | 37 |
 
 
-reads_test.fastq
 
 
 
