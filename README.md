@@ -177,7 +177,7 @@ reformat.sh -in=alignment.sam idhist=output_distrib.txt idbins=1000
 | [Urban](profiles/profile_urban.txt)| 10.6 | 24| 39 | 37 |
 
 
-test.fastq
+reads_test.fastq
 
 
 
