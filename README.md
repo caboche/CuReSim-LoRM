@@ -106,7 +106,7 @@ java -jar CuReSim-LoRM.jar -f reads_test.fastq
 # Generate 20K reads in TEST.fastq with 17.4% of errors (profile_run1) and read lengh parameter equal to [70,10,1,15,0,4]
 java -jar CuReSim-LoRM.jar -f reads_test_20K.fastq -p profile_run1.txt -para 70,10,1,15,0,4 -o TEST.fastq
 ```
-
+Around 20 seconds are required to generate 5K reads and 1,5 minute for 20K reads.
 
 
 # Training error models
