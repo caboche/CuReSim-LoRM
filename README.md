@@ -109,6 +109,15 @@ java -jar CuReSim-LoRM.jar -f reads_test_20K.fastq -p profile_run1.txt -para 70,
 ```
 Around 20 seconds are required to generate 5K reads and 1,5 minute for 20K reads.
 
+> [!IMPORTANT]
+> **Update:** new profile correponding to the flowcell R10.4.1 (2.35% of errors) is now available
+
+```
+# Generate 20K reads in TEST.fastq with 2.35% of errors (profile_R10) and read lengh parameter equal to [94,3,1,2,0,0]
+java -jar CuReSim-LoRM.jar -f reads_test_20K.fastq -p profile_R10.txt -para 94,3,1,2,0,0 -o TEST.fastq
+
+```
+
 
 # Training error models
 The python script, train_CuReSim-LoRM.py, was developed to automate the whole process, computing the parameters and running CuReSim-LoRM.
@@ -193,6 +202,7 @@ reformat.sh -in=alignment.sam idhist=output_distrib.txt idbins=1000
 | [newLot](profiles/profile_newLot.txt)| 14.5 | 28 | 42 | 30 |
 | [newBasecalling](profiles/profile_newBasecalling.txt) | 11.2| 32 | 35 | 33 |
 | [Urban](profiles/profile_urban.txt)| 10.6 | 24| 39 | 37 |
+| [R10](profiles/profile_R10.txt) | 2.35 | 18 | 28 | 54 |
 
 
 
@@ -203,4 +213,8 @@ For questions and comments, please contact us at segolene.caboche(AT)univ-lille.
 
 # Citation
 
-A manuscript describing CuReSim-LoRM is under publication. If you make use of the CuReSim-LoRM, please cite us: Caboche et al., CuReSim-LoRM: a tool to simulate metabarcoding long reads (submited).
+If you make use of CuReSim-LoRM, please cite: 
+
+Mesloub Y, Beury D, Vandermeeren F, Caboche S.  
+CuReSim-LoRM: A Tool to Simulate Metabarcoding Long Reads.   
+Int J Mol Sci. 2023 Sep 12;24(18):14005. [DOI](https://www.mdpi.com/1422-0067/24/18/14005).
